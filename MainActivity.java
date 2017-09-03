@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         toast.setDuration(Toast.LENGTH_LONG);
         toast.setGravity(Gravity.CENTER,0,0);
 
-
+//XML -> Java(LayoutInflater)
         LayoutInflater inflater = getLayoutInflater();
         View appear =inflater.inflate(R.layout.toast_layout,
                 (ViewGroup)findViewById(R.id.toastCustomed));
